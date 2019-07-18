@@ -239,11 +239,14 @@ nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination button {
+  background-color: turquoise;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
 body {
   margin-left: 3rem;
   margin-right: 3rem;
-}
-.topContainer {
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
 }
