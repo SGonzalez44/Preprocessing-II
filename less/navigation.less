@@ -1,1 +1,23 @@
 // Navigation Styles here
+header{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed @navigation-border;
+   @media (max-width:500px){
+      flex-direction:column;
+
+   }
+    nav{
+       a{
+        font-size: 1.5rem;
+        margin:2rem;
+        text-decoration: none;
+        color:black;
+       }
+    }
+   }
